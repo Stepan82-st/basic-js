@@ -21,9 +21,8 @@ function countCats(arr) {
   if(array){
   count = array.filter(el => el==='^^')
   return count.length;
-  }else{
-    return 0;
   }
+  return 0;
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
 }
